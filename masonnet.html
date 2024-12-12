@@ -325,6 +325,31 @@
 .tooltip13:hover .tooltiptext13 {
   visibility: visible;
 }
+                              .tooltip14 {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip14 .tooltiptext14 {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip14:hover .tooltiptext14 {
+  visibility: visible;
+}
 body {font-family: Arial, Helvetica, sans-serif;}
 
 /* The Modal (background) */
@@ -373,7 +398,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <hr>
     <center><p>NOTICE: This page is in development.</p></center>
     <center>
-    <img src="postsocialbetalogo.png" width="170" height="64"> | <a href="index.html"><button><div class="tooltip"><span class="material-symbols-outlined">
+        <img src="postsocialbetalogo.png" width="170" height="64"> | <a href="index.html"><button><div class="tooltip"><span class="material-symbols-outlined">
 home
 </span>
   <span class="tooltiptext">Home</span>
@@ -399,7 +424,12 @@ account_circle
 </span>
   <span class="tooltiptext5">My account</span>
 </div>
-</button> | <a href="https://www.masonnet.org"><button><div class="tooltip6">
+</button> | <button><div class="tooltip10">
+        <span class="material-symbols-outlined">
+linked_services
+</span>
+  <span class="tooltiptext10">PostSocial Connect</span>
+</div></button> | <a href="https://www.masonnet.org"><button><div class="tooltip6">
       <img src="shortlogo.png" width="32" height="32" alt="MASONNET">
   <span class="tooltiptext6">MASONNET</span>
 </div>
@@ -410,6 +440,7 @@ add_circle
   <span class="tooltiptext7">Post</span>
 </div>
 </span></button>
+
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -475,4 +506,6 @@ admin_panel_settings
     <a href="https://www.masonnet.org">masonnet.org</a>
     <hr>
   </center>
+          <hr>
+<center><font size="2">Copyright &copy; 2024 MASONNET, Inc. All rights reserved.</font></center>
 </html>
